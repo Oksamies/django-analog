@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from django.conf import settings
 from django.db import models
 from django.utils.encoding import force_text
-from django.utils.six import integer_types, string_types
+from six import integer_types, string_types
 
 from analog.exceptions import NoExtraField, UnknownLogKind
 from analog.settings import KIND_IDS, KIND_LABELS, KINDS
